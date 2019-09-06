@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 
+
 export default class MenuBar extends Component {
     render() {
         return(
@@ -10,7 +11,8 @@ export default class MenuBar extends Component {
                 <h4>WikiTrash</h4>
                 <h4>CodeCoach</h4>
                 <h4>Bucketlist</h4>
-            </div>
+                <h4>Contact</h4>
+             </div>
         )
     }
 }
