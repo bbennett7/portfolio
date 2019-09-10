@@ -6,8 +6,8 @@ export default class Header extends Component {
         return(
             <div className="App-header">
                 <div className="Title">
-                    <h1>Bryn Catherine Bennett</h1>
-                    <h3>Full-Stack Software Developer - Problem Solver - Adventurer</h3>
+                    <h1 id="Header">Bryn Catherine Bennett</h1>
+                    <h3 id="Sub-header">Full-Stack Software Developer - Problem Solver - Adventurer</h3>
                 </div>
 
                 <div className="Social-icons">

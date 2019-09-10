@@ -1,7 +1,26 @@
+/* Breathless */
+
+/* Software */
+
+/* Spatial White */
+
+body {
+  --pink: rgb(217, 193, 189);
+  --green: rgb(126, 132, 134); 
+  --background-color: rgb(221, 220, 219);
+  min-height: 100%
+}
+
+
 #root {
   height: 100vh;
   padding: 1% 2%;
 }
+
+body {
+  color: var(--background-color);
+}
+
 .App {
   height: 100%;
   display: grid;
@@ -14,6 +33,15 @@
   display: grid;
   grid-template: 1fr / 1fr 4fr 1fr;
 }
+
+#Header {
+  color: var(--green);
+}
+
+#Sub-header {
+  color: var(--pink);
+}
+
 
 .App-header h1, .App-header h3 {
   margin: .5% 0;
@@ -36,4 +64,5 @@
 .Menu h4 {
   margin: auto;
   padding-top: .5%;
+  color: var(--green);
 }
