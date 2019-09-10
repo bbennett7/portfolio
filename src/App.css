@@ -43,7 +43,7 @@ body {
 }
 
 
-.App-header h1, .App-header h3 {
+.App-header h1, .App-header h2 {
   margin: .5% 0;
 }
 
@@ -61,8 +61,15 @@ body {
   float: right;
 }
 
-.Menu h4 {
+.Menu h4, a {
   margin: auto;
   padding-top: .5%;
+  text-decoration: none;
   color: var(--green);
+}
+
+a:hover {
+  color: var(--pink);
+  text-decoration: underline;
+  text-decoration-color: var(--green);
 }
