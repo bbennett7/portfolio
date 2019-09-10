@@ -22,3 +22,9 @@
   margin: auto;
   padding-top: .5%;
 }
+
+.social-icon {
+  height: 30px !important;
+  width: 30px !important;
+  margin: .5%;
+}
