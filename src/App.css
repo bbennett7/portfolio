@@ -61,15 +61,31 @@ body {
   float: right;
 }
 
+.Main {
+  grid-area: 2 / 1 / 2 / 2;
+  display: grid;
+  grid-template: 1fr / 1fr 5fr 2fr;
+}
+
+.Menu {
+  grid-area: 1 / 1 / 1 / 2;
+  background-color: var(--pink);
+  vertical-align: auto;
+  padding: 15% 0%;
+}
+
 .Menu h4, a {
-  margin: auto;
-  padding-top: .5%;
+  margin: 0% 2%;
+  padding: 2% 5%;
+  line-height: 150%;
   text-decoration: none;
   color: var(--green);
+  display: block;
 }
 
 a:hover {
   color: var(--pink);
   text-decoration: underline;
   text-decoration-color: var(--green);
+  background-color: var(--green);
 }
