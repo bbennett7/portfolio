@@ -14,33 +14,30 @@ body {
 
 #root {
   height: 100vh;
-  padding: 1% 2%;
-}
-
-.App {
-  height: 100%;
   display: grid;
   grid-template: 14% 70% 10%  / 1fr;
   grid-gap: 2%;
 }
 
-.App-header {
-  grid-area: 1 / 1 / 2 / 2;
+.App {
+  grid-area: 1 / 1 / 4 / 2;
   display: grid;
-  grid-template: 1fr / 1fr 3fr 1fr;
+  grid-template: 14% 70% 10%  / 200px 4fr 1fr;
+  grid-gap: 2%;
+}
+
+.Header {
+  grid-area: 1 / 1 / 1 / 4;
+  display: grid;
 }
 
 #Header {
   color: var(--green);
+
 }
 
 #Sub-header {
   color: var(--pink);
-}
-
-
-.App-header h1, .App-header h2 {
-  margin: .5% 0;
 }
 
 .Title {
@@ -63,15 +60,8 @@ body {
   background-color: white;
 }
 
-.Main {
-  grid-area: 2 / 1 / 2 / 2;
-  display: grid;
-  grid-template: 1fr / 180px 4fr 1fr;
-  grid-gap: 6%;
-}
-
 .Menu {
-  grid-area: 1 / 1 / 1 / 2;
+  grid-area: 2 / 1 / 2 / 2;
   background-color: var(--pink);
   vertical-align: auto;
   margin: 2% 0%;
@@ -88,13 +78,20 @@ body {
 }
 
 a:hover {
-  color: var(--pink);
+  color: white;
   text-decoration: underline;
   text-decoration-color: var(--green);
   background-color: var(--green);
 }
 
 .Main-content {
-  grid-area: 1 / 2 / 1 / 3;
-  background-color: rgb(126, 132, 134); 
+  grid-area: 2 / 2 / 2 / 3;
+  border: solid 5px rgb(126, 132, 134); 
+}
+
+
+
+.Wiki-Trash {
+  display: grid !important;
+  grid-area: 2 / 2 / 2 / 3;
 }

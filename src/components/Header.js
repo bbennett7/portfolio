@@ -4,7 +4,7 @@ import { SocialIcon } from 'react-social-icons';
 export default class Header extends Component {
     render() {
         return(
-            <div className="App-header">
+            <div className="Header">
                 <div className="Title">
                     <h1 id="Header">BRYN CATHERINE BENNETT</h1>
                     <h2 id="Sub-header">Full-Stack Software Developer - Problem Solver - Adventurer</h2>
