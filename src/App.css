@@ -121,9 +121,9 @@ p {
 
 .Home {
   display: grid;
-  grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr 1fr;
+  grid-template: 1fr 1fr / 1fr 1fr 1fr 1fr;
   grid-column-gap: 50px;
-  grid-row-gap: 100px;
+  grid-row-gap: 20px;
 }
 
 h4 {
@@ -140,26 +140,54 @@ iframe {
 }
 
 .Home-icon {
-  margin-top: 20px;
-  width: 150px;
-  height: 150px;
+  margin: 20px auto;
+  width: 191px;
+  height: 200px;
+  align-content: center;
 }
 
 .Grey-icon {
+  width: 125px;
+  height: 125px;
+  margin: 0px 33px;
   z-index: 1;
   filter: rgb(220, 216, 207);
   -webkit-filter: opacity(1);
-  -webkit-transition: all .5s ease-in-out;
+  -webkit-transition: all .8s ease-in-out;
   position: absolute;
 }
 
 .Color-icon {
+  width: 125px;
+  height: 125px;
+  margin: 0px 33px;
   z-index: -1;
   position: absolute;
 }
 
 .Grey-icon:hover {
+  width: 125px;
+  height: 125px;
   -webkit-filter: opacity(0);
   -webkit-transform: scale(1.01);
   position: absolute;
+}
+
+.Icon-text {
+  -webkit-filter: opacity(0);
+  -webkit-transition: all .8s ease-in-out;
+  position: relative;
+  top:125px;
+  text-align: center;
+}
+
+.Home-icon h4, .Home-icon h6  {
+  display: block;
+  text-align: center;
+  margin: 5px 0px; 
+}
+
+.Home-icon:hover h4, .Home-icon:hover h6 {
+  -webkit-filter: opacity(1);
+  -webkit-transform: scale(1.01);
 }
