@@ -6,6 +6,8 @@ import FIGrey from '../images/grey/fi-grey.jpg';
 import FIColor from '../images/color/fi-color.jpg';
 import VHGrey from '../images/grey/vh-grey.jpg';
 import VHColor from '../images/color/vh-color.jpg';
+import MGrey from '../images/grey/m-grey.jpg';
+import MColor from '../images/color/m-color.jpg';
 
 
 export default class Home extends Component {
@@ -15,7 +17,7 @@ export default class Home extends Component {
                 <HomeIcon greyFile={IUGrey} colorFile={IUColor}/>
                 <HomeIcon greyFile={FIGrey} colorFile={FIColor}/>
                 <HomeIcon greyFile={VHGrey} colorFile={VHColor}/>
-                <HomeIcon which="Writer for Medium"/>
+                <HomeIcon greyFile={MGrey} colorFile={MColor}/>
                 <HomeIcon which="TreePeople"/>
                 <HomeIcon which="Dog Mom"/>
                 <HomeIcon which="Reader"/>
