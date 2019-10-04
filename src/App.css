@@ -20,7 +20,7 @@ body {
   width: 100%;
   display: grid;
   grid-template: 100px auto 300px  / 1.3fr 4fr 1.3fr;
-  grid-row-gap: 2%;
+  grid-row-gap: 20px;
   font-family: 'Raleway', sans-serif;
 }
 
@@ -36,7 +36,7 @@ h2 {
   grid-area: 1 / 1 / 4 / 4;
   display: grid;
   grid-template: 100px auto 100px  / 20% 4fr 1.5fr;
-  grid-row-gap: 2%;
+  grid-row-gap: 20px;
 }
 
 .Header {
