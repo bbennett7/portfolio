@@ -119,6 +119,11 @@ p {
   color: var(--gray);
 }
 
+.Home {
+  display: grid;
+  grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr;
+}
+
 h4 {
   margin: 0% 5% 0% 0%;
   display: inline-block;
@@ -130,4 +135,28 @@ h4 {
 iframe {
   display: block;
   margin: 0 auto 5%;
+}
+
+.Home-icon {
+  width: 150px;
+  height: 150px;
+}
+
+.Grey-icon {
+  z-index: 1;
+  filter: rgb(220, 216, 207);
+  -webkit-filter: opacity(1);
+  -webkit-transition: all .5s ease-in-out;
+  position: absolute;
+}
+
+.Color-icon {
+  z-index: -1;
+  position: absolute;
+}
+
+.Grey-icon:hover {
+  -webkit-filter: opacity(0);
+  -webkit-transform: scale(1.01);
+  position: absolute;
 }
