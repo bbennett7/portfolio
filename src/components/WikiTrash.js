@@ -6,7 +6,7 @@ export default class WikiTrash extends Component {
     render() {
         return(
             <div className="Wiki-trash">
-                <h1>WikiTrash</h1>
+                <h2>Wikitrash</h2>
                 <MainContent />
                 <YouTube videoId="jskcDg8LbUo"/>
             </div>

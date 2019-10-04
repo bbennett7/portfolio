@@ -4,6 +4,7 @@ export default class EBDesign extends Component {
     render() {
         return(
             <div className="EB-Design">
+                <h2>Erin Boyle Design</h2>
             </div>
         )
     }
