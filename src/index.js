@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import Home from './components/Home';
+import About from './components/About';
 import EBDesign from './components/EBDesign';
 import WikiTrash from './components/WikiTrash';
 import CodeCoach from './components/CodeCoach';
@@ -16,6 +17,7 @@ ReactDOM.render(
         <React.Fragment>
             <Route path="/" component={App} />
             <Route exact path="/" component={Home} />
+            <Route exact path="/About" component={About} />
             <Route exact path="/ErinBoyleDesign" component={EBDesign} />
             <Route exact path="/WikiTrash" component={WikiTrash} />
             <Route exact path="/CodeCoach" component={CodeCoach} />
