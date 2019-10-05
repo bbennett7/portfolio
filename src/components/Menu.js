@@ -11,13 +11,11 @@ export default class MenuBar extends Component {
     }
 
     handleOnClick = (event) => {
-        console.log(event.target.innerHTML)
-        let path = event.target.innerHTML.toLowerCase().replace(" ", "");
-        console.log(path)
+        let path = event.target.innerHTML.toLowerCase().replace(" ", "").replace(" ", "");
+
         this.setState ({
             path: path
         })
-        console.log(this.state)
     }
 
     getClass = (component) => {
