@@ -165,7 +165,7 @@ iframe {
   position: absolute;
 }
 
-.Grey-icon:hover {
+.Home-icon:hover .Grey-icon {
   width: 125px;
   height: 125px;
   -webkit-filter: opacity(0);
