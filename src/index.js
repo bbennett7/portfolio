@@ -17,12 +17,13 @@ ReactDOM.render(
         <React.Fragment>
             <Route path="/" component={App} />
             <Route exact path="/" component={Home} />
-            <Route exact path="/About" component={About} />
-            <Route exact path="/ErinBoyleDesign" component={EBDesign} />
-            <Route exact path="/WikiTrash" component={WikiTrash} />
-            <Route exact path="/CodeCoach" component={CodeCoach} />
-            <Route exact path="/BucketList" component={Bucketlist} />
-            <Route exact path="/Contact" component={Contact} />
+            <Route exact path="/home" component={Home} />
+            <Route exact path="/about" component={About} />
+            <Route exact path="/erinboyledesign" component={EBDesign} />
+            <Route exact path="/wikitrash" component={WikiTrash} />
+            <Route exact path="/codecoach" component={CodeCoach} />
+            <Route exact path="/bucketlist" component={Bucketlist} />
+            <Route exact path="/contact" component={Contact} />
         </React.Fragment>
     </Router>,
 document.getElementById('root'));

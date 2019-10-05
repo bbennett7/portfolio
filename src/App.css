@@ -8,6 +8,7 @@
 
 body {
   --green: rgb(150, 169,160);
+  --lightgreen: rgb(191, 206, 197);
   --yellow: rgb(222, 153, 0); 
   --gray: rgb(50, 60, 54);
   min-height: 100%;
@@ -103,6 +104,13 @@ a:hover {
   background-color: var(--green);
 }
 
+.Active {
+  color: white;
+  text-decoration: underline;
+  text-decoration-color: var(--yellow);
+  background-color: var(--lightgreen);
+}
+
 .About, .Bucketlist, .Code-Coach, .Contact, .EB-Design, .Home, .Wiki-trash {
   grid-area: 2 / 2 / 2 / 3;
   padding: 1%;
@@ -113,6 +121,8 @@ a:hover {
 
 .Page-header {
   margin-top: 0%;
+  margin-right: 10px;
+  width: 50%;
 }
 
 p {
@@ -132,6 +142,12 @@ h4 {
 }
 .App-link {
   padding: 0% 1px;
+}
+
+#Headshot {
+  width: 200px;
+  height: 200px;
+  float: right;
 }
 
 iframe {
