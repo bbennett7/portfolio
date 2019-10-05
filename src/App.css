@@ -169,7 +169,7 @@ iframe {
   z-index: 1;
   filter: rgb(220, 216, 207);
   -webkit-filter: opacity(1);
-  -webkit-transition: all .8s ease-in-out;
+  -webkit-transition: all .6s ease-in-out;
   position: absolute;
 }
 
