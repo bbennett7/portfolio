@@ -207,3 +207,19 @@ iframe {
   -webkit-filter: opacity(1);
   -webkit-transform: scale(1.01);
 }
+
+#Contact-content {
+  width: 95%;
+  color: var(--green);
+  margin: 0 auto;
+}
+
+#Email {
+  color: var(--yellow);
+}
+
+.Mountain {
+  width: 30%;
+  margin: 15% 30% 5%;
+  opacity: .75;
+}
