@@ -33,9 +33,9 @@ export default class MenuBar extends Component {
                 <h4 onClick={this.handleOnClick}> <Link to="/home" className={this.getClass("home")}>Home</Link> </h4>
                 <h4 onClick={this.handleOnClick}> <Link to="/about" className={this.getClass("about")}>About</Link></h4>
                 <h4 onClick={this.handleOnClick}> <Link to="/erinboyledesign" className={this.getClass("erinboyledesign")}>Erin Boyle Design</Link> </h4>
-                <h4 onClick={this.handleOnClick}> <Link to="/wikiTrash" className={this.getClass("wikitrash")}>WikiTrash</Link> </h4>
+                <h4 onClick={this.handleOnClick}> <Link to="/wikitrash" className={this.getClass("wikitrash")}>WikiTrash</Link> </h4>
                 <h4 onClick={this.handleOnClick}> <Link to="/codecoach" className={this.getClass("codecoach")}>CodeCoach</Link> </h4>
-                <h4 onClick={this.handleOnClick}> <Link to="/bucketList" className={this.getClass("bucketlist")}>BucketList</Link> </h4>
+                <h4 onClick={this.handleOnClick}> <Link to="/bucketlist" className={this.getClass("bucketlist")}>BucketList</Link> </h4>
                 <h4 onClick={this.handleOnClick}> <Link to="/contact" className={this.getClass("contact")}>Contact</Link> </h4>
              </div>
         )

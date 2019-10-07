@@ -5,8 +5,8 @@ export default class CodeCoach extends Component {
         return(
             <div className="Code-Coach">
                 <h2 className="Page-header">CodeCoach</h2>
-                <h4><a href="https://code-coach-app.herokuapp.com" className="App-link">Visit CodeCoach</a></h4>
-                <h4><a href="https://github.com/bbennett7/codecoach" className="App-link">GitHub Repository</a></h4>
+                <h4><a href="https://code-coach-app.herokuapp.com" className="App-link" target="blank">Visit CodeCoach</a></h4>
+                <h4><a href="https://github.com/bbennett7/codecoach" className="App-link" target="blank">GitHub Repository</a></h4>
                 <p>Ruby on Rails, JavaScript</p>
                 <p>Inspired by the idea that, with a little guidance in traversing the world of open source resources, the opportunity to learn software engineering can be available to students from all over the globe and all walks of life, CodeCoach is a web application that allows students to connect with software engineers for mentorship in this very area.</p>
 
