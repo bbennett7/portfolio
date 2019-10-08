@@ -16,8 +16,8 @@ export default class Header extends Component {
                 <div className="Social-icons">
                     <a href="https://twitter.com/BrynBennett7" target="_blank"><img src={Twitter} className="social-icon" /></a>
                     <a href="https://medium.com/@bryn.bennett" target="_blank"><img src={Medium} className="social-icon" /></a>
-                    <a href="https://github.com/bbennett7" target="_blank"><img src={Github} className="social-icon" /></a>
                     <a href="https://www.linkedin.com/in/bryncbennett/" target="_blank"><img src={Linkedin} className="social-icon" /></a>
+                    <a href="https://github.com/bbennett7" target="_blank"><img src={Github} className="social-icon" /></a>
                 </div>
             </div>
         )
