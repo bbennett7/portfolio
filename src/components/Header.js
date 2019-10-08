@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
-import { SocialIcon } from 'react-social-icons';
+import Github from '../images/socialicons/github.png';
+import Twitter from '../images/socialicons/twitter.png';
+import Linkedin from '../images/socialicons/linkedin.png';
+import Medium from '../images/socialicons/medium.png';
 
 export default class Header extends Component {
     render() {
@@ -11,10 +14,10 @@ export default class Header extends Component {
                 </div>
 
                 <div className="Social-icons">
-                    <SocialIcon url="https://www.linkedin.com/in/bryncbennett/" target="_blank"/>
-                    <SocialIcon url="https://github.com/bbennett7" target="_blank"/>
-                    <SocialIcon url="https://medium.com/@bryn.bennett" target="_blank"/>
-                    <SocialIcon url="https://twitter.com/BrynBennett7"  target="_blank"/>
+                    <a href="https://twitter.com/BrynBennett7" target="_blank"><img src={Twitter} className="social-icon" /></a>
+                    <a href="https://medium.com/@bryn.bennett" target="_blank"><img src={Medium} className="social-icon" /></a>
+                    <a href="https://github.com/bbennett7" target="_blank"><img src={Github} className="social-icon" /></a>
+                    <a href="https://www.linkedin.com/in/bryncbennett/" target="_blank"><img src={Linkedin} className="social-icon" /></a>
                 </div>
             </div>
         )
