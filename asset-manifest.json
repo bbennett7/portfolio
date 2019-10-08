@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/portfolio/src/index.js/static/css/main.48e23425.chunk.css",
+    "main.js": "/portfolio/src/index.js/static/js/main.d0235619.chunk.js",
+    "main.js.map": "/portfolio/src/index.js/static/js/main.d0235619.chunk.js.map",
+    "runtime~main.js": "/portfolio/src/index.js/static/js/runtime~main.d7a12e51.js",
+    "runtime~main.js.map": "/portfolio/src/index.js/static/js/runtime~main.d7a12e51.js.map",
+    "static/js/2.efe61f58.chunk.js": "/portfolio/src/index.js/static/js/2.efe61f58.chunk.js",
+    "static/js/2.efe61f58.chunk.js.map": "/portfolio/src/index.js/static/js/2.efe61f58.chunk.js.map",
+    "index.html": "/portfolio/src/index.js/index.html",
+    "precache-manifest.1b40de93786c22cfe37a45397ff95aa5.js": "/portfolio/src/index.js/precache-manifest.1b40de93786c22cfe37a45397ff95aa5.js",
+    "service-worker.js": "/portfolio/src/index.js/service-worker.js",
+    "static/css/main.48e23425.chunk.css.map": "/portfolio/src/index.js/static/css/main.48e23425.chunk.css.map",
+    "static/media/Mountain.jpg": "/portfolio/src/index.js/static/media/Mountain.cdc3fe36.jpg",
+    "static/media/WebsiteImg.png": "/portfolio/src/index.js/static/media/WebsiteImg.1b470204.png",
+    "static/media/fi-color.jpg": "/portfolio/src/index.js/static/media/fi-color.df60691f.jpg",
+    "static/media/fi-grey.jpg": "/portfolio/src/index.js/static/media/fi-grey.7df8dba9.jpg",
+    "static/media/h-color.jpg": "/portfolio/src/index.js/static/media/h-color.3394ee11.jpg",
+    "static/media/h-grey.jpg": "/portfolio/src/index.js/static/media/h-grey.d76b117e.jpg",
+    "static/media/iu-color.jpg": "/portfolio/src/index.js/static/media/iu-color.1ccd698e.jpg",
+    "static/media/iu-grey.jpg": "/portfolio/src/index.js/static/media/iu-grey.f4242714.jpg",
+    "static/media/m-color.jpg": "/portfolio/src/index.js/static/media/m-color.72f0b406.jpg",
+    "static/media/m-grey.jpg": "/portfolio/src/index.js/static/media/m-grey.64a0ff88.jpg",
+    "static/media/r-color.jpg": "/portfolio/src/index.js/static/media/r-color.41cd1b05.jpg",
+    "static/media/r-grey.jpg": "/portfolio/src/index.js/static/media/r-grey.b951cb53.jpg",
+    "static/media/vh-color.jpg": "/portfolio/src/index.js/static/media/vh-color.61bffdb5.jpg",
+    "static/media/vh-grey.jpg": "/portfolio/src/index.js/static/media/vh-grey.b0008ad1.jpg",
+    "static/media/z-color.jpg": "/portfolio/src/index.js/static/media/z-color.f1d68d5c.jpg",
+    "static/media/z-grey.jpg": "/portfolio/src/index.js/static/media/z-grey.a6b261fd.jpg"
+  }
+}
