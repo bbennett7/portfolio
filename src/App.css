@@ -84,6 +84,10 @@ h2 {
   background-color: inherit;
 }
 
+.Mobile-menu {
+  display: none;
+}
+
 .Menu {
   grid-area: 2 / 1 / 4 / 2;
   margin: 0% 40px 2% 20px;

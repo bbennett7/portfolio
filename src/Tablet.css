@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:200,300&display=swap');
+
+@media only screen and (max-width: 1100px) {
+    /* body {
+    --green: rgb(150, 169,160);
+    --lightgreen: rgb(213, 224, 216);
+    --yellow: rgb(222, 153, 0); 
+    --gray: rgb(50, 60, 54);
+    min-height: 100%;
+    background: rgb(251, 251, 251);
+    } */
+
+
+    #root {
+        min-height: 100vh;
+        height: 100%;
+        width: 100%;
+        display: grid;
+        grid-row-gap: 5px;
+        grid-template-columns: 3% 94.5% 3%;
+        font-family: 'Raleway', sans-serif;
+    }
+
+    /* h2 {
+        color: var(--yellow);
+        text-decoration: underline;
+        text-decoration-color: var(--green);
+    } */
+
+    .App {
+        height: 100vh;
+        width: 100%;
+        grid-area: 1 / 1 / 5 / 4;
+        display: grid;
+        grid-template: 100px 20px auto 50px  / 3% 94.5% 3%;
+        grid-row-gap: 5px;
+    }
+
+    .Header {
+        grid-area: 1 / 1 / 1 / 4;
+        display: grid;
+        grid-template: 100% / 75% 25%;
+        grid-gap: 1%;
+    }
+
+    /* #Header {
+        color: var(--yellow);
+        font-variant: small-caps;
+    } */
+
+    /* #Sub-header {
+        margin-top: -2%;
+        color: var(--green);
+        font-size: 100%;
+    }
+
+    .Title {
+        font-size: 100%;
+        grid-area: 1 / 1 / 1 / 3;  
+        margin-left: 20px;
+    } */
+
+    /* .Social-icons {
+        grid-area: 1 / 2 / 1 / 3;
+        margin: 7% 20%;
+    } */
+
+    .social-icon {
+    height: 15px !important;
+    float: right;
+    margin-right: 5px;
+    }
+
+    /* .Social-icons a {
+        padding: 0;
+    } */
+
+    /* .Social-icons a:hover {
+    text-decoration: none;
+    text-decoration-color: none;
+    background-color: inherit;
+    } */
+
+
+    .Menu {
+        display: none;
+        height: 5px;
+        margin: 0% 40px 2% 20px;
+        padding: 0% 0% 0% 5%;
+    }
+
+    .Menu h4, a {
+    margin: 0% 0%;
+    padding: 2% 10px;
+    line-height: 150%;
+    text-decoration: none;
+    color: var(--yellow);
+    display: block;
+    padding-right: 5%;
+    }
+
+    a:hover {
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: var(--yellow);
+    background-color: var(--green);
+    }
+
+    .Active {
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: var(--yellow);
+    background-color: var(--lightgreen);
+    }
+
+    .About, .Bucketlist, .Code-Coach, .Contact, .EB-Design, .Home, .Wiki-trash {
+    grid-area: 2 / 2 / 2 / 3;
+    height: auto;
+    background: white;
+    margin-top: 10%;
+    /* border-top: 1px solid var(--yellow); */
+    /* border-right: 1px solid var(--yellow); */
+    border: 2px solid var(--yellow);
+    box-shadow: 0px 3px 5px var(--lightgreen); 
+    }
+
+    .About, .Bucketlist, .Code-Coach, .Contact, .EB-Design, .Home, .Wiki-trash {
+    padding: 4%;
+    }
+
+    .Page-header {
+    margin-top: 0%;
+    margin-right: 10px;
+    width: 50%;
+    }
+
+    p {
+    color: var(--gray);
+    }
+
+    .Home {
+        padding: 1%;
+        display: grid;
+        grid-template: auto auto / 1fr 1fr 1fr 1fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 10px;
+    }
+
+    h4 {
+        margin: 0% 5% 0% 0%;
+        display: inline-block;
+    }
+
+    .App-link {
+        padding: 0% 1px;
+    }
+
+    #Headshot {
+        width: 200px;
+        height: 200px;
+        float: right;
+    }
+
+    iframe {
+        display: block;
+        margin: 0 auto 5%;
+    }
+
+    .Home-icon {
+        margin: 10px 0;
+        width: auto;
+        height: 210px;
+        align-content: center;
+    }
+
+    .Grey-icon {
+        width: 100px;
+        height: auto;
+        filter: rgb(220, 216, 207);
+    }
+
+    .Color-icon {
+        width: 100px;
+        height: auto;
+        height: auto;
+    }
+
+    .Home-icon:hover .Grey-icon {
+    width: 100px;
+    height: auto;
+    }
+
+    .Icon-text {
+        text-align: center;
+        width: auto;
+        overflow: 
+    }
+
+    .Home-icon h4, .Home-icon h6  {
+    display: block;
+    text-align: center;
+    margin: 0px 0px; 
+    }
+
+    .Home-icon:hover h4, .Home-icon:hover h6 {
+    -webkit-filter: opacity(1);
+    -webkit-transform: scale(1.01);
+    }
+
+    #Contact-content {
+    width: 95%;
+    color: var(--green);
+    margin: 0 auto;
+    }
+
+    #Email {
+    color: var(--yellow);
+    display: inline;
+    margin: 0% 0%;
+    padding: 0% 0px;
+    line-height: 100%;
+    text-decoration: none;
+    padding-right: 0%;
+    }
+
+    #Email:hover {
+    text-decoration: underline;
+    text-decoration-color: var(--green);
+    background:inherit;
+    }
+
+    .Mountain {
+    width: 20%;
+    margin: 15% 40% 5%;
+    opacity: .6;
+    }
+
+}
