@@ -122,7 +122,7 @@
 
     .About, .Bucketlist, .Code-Coach, .Contact, .EB-Design, .Home, .Wiki-trash {
         grid-area: 2 / 2 / 2 / 3;
-        min-height: 500px;
+        min-height: 700px;
         background: white;
         margin-top: 15%;
         padding: 4%;
@@ -220,8 +220,16 @@
 
     .Icon-text {
         text-align: center;
-        margin-top: 100px;
+        margin-top: 0px;
         width: auto;
+    }
+
+    .Home-icon h4 {
+        font-size: 150%;
+    }
+
+    .Home-icon h6 {
+        font-size: 100%;
     }
 
     .Home-icon h4, .Home-icon h6  {
