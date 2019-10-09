@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:200,300&display=swap');
 
-@media only screen and (max-width: 1100px) {
+@media only screen and (max-width: 600px) {
     body {
     --green: rgb(150, 169,160);
     --lightgreen: rgb(213, 224, 216);
@@ -18,7 +18,7 @@
         width: 100%;
         display: grid;
         grid-row-gap: 5px;
-        grid-template: 150px auto 300px / 1fr 730px 1fr;
+        grid-template: 150px auto 50px / 10px auto 10px;
         font-family: 'Raleway', sans-serif;
     }
 
@@ -57,9 +57,9 @@
     }
 
     .Title {
-        /* font-size: 100%;
-        grid-area: 1 / 1 / 1 / 3;   */
-        margin-left: 50px;
+        font-size: 135%;
+        grid-area: 1 / 1 / 1 / 3;
+        margin-left: 15px;
         margin-top: 0px;
     }
 
@@ -98,11 +98,12 @@
     .Menu h4, a {
         display: inline-block;
         text-align: center;
-        margin: 0% 1% 0%;
-        padding: 7px 10px;
+        margin: 0%;
+        padding: 7px 7px;
         line-height: 100%;
         text-decoration: none;
         color: var(--yellow);
+        font-size: 115%;
     }
 
     a:hover {
@@ -121,20 +122,23 @@
 
     .About, .Bucketlist, .Code-Coach, .Contact, .EB-Design, .Home, .Wiki-trash {
         grid-area: 2 / 2 / 2 / 3;
-        height: auto;
+        min-height: 500px;
         background: white;
         margin-top: 15%;
         padding: 4%;
+        min-width: 90%;
         /* border-top: 1px solid var(--yellow); */
         /* border-right: 1px solid var(--yellow); */
         border: 2px solid var(--yellow);
         box-shadow: 0px 3px 5px var(--lightgreen); 
     }
 
-    .Bucketlist a, .Code-Coach a, .EB-Design a, .Wiki-trash a {
+    .Bucketlist h4, .Code-Coach h4, .EB-Design h4, .Wiki-trash h4 {
         display: block;
         margin-right: 0px;
+        margin-bottom: 2%;
         text-align: left;
+        font-size: 135%;
     }
 
     .Bucketlist a:hover, .Code-Coach a:hover, .EB-Design a:hover, .Wiki-trash a:hover {
@@ -148,10 +152,17 @@
         margin-top: 0%;
         margin-right: 10px;
         width: 50%;
+        font-size: 220%;
+    }
+
+    .Contact h3 {
+        font-size: 145%;
+        text-align: center;
     }
 
     p {
         color: var(--gray);
+        font-size: 145%;
     }
 
     .Home {

@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import './Tablet.css';
+import './Mobile.css';
 import Header from './components/Header.js';
 import Menu from './components/Menu.js'
 
