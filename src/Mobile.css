@@ -33,7 +33,7 @@
         width: 100%;
         grid-area: 1 / 1 / 5 / 4;
         display: grid;
-        grid-template: 150px 50px auto 50px  / 1fr 730px 1fr;
+        grid-template: 150px 70px auto 50px  / 1fr 730px 1fr;
         grid-row-gap: 5px;
     }
 
@@ -85,25 +85,50 @@
     } */
 
 
+    #Mobile-menu {
+        display: inline-block;
+        font-size: 200%;
+        margin-top: 1%;
+        color: var(--yellow);
+        text-decoration: underline;
+        text-decoration-color: var(--green);
+    }
+
     .Menu {
         grid-area: 2 / 1 / 2 / 4;
         height: auto;
         margin: 0%;
         padding: 0%;
+        z-index: 1;
         text-align: center;
-        border: 2px solid var(--yellow);
+        border: 2px solid var(--green);
         background: var(--lightgreen);
     }
 
-    .Menu h4, a {
-        display: inline-block;
+    .Menu-links h4, a {
         text-align: center;
-        margin: 0%;
-        padding: 7px 7px;
+        margin: 0% 0% 0%;
+        width: 100%;
+        padding: 7px 0px;
         line-height: 100%;
         text-decoration: none;
         color: var(--yellow);
-        font-size: 115%;
+    }
+
+    #Display-false {
+        display: none;
+        background: var(--lightgreen);
+    }
+
+    #Display-true {
+        background: var(--lightgreen);
+        display: block;
+        z-index: 2;
+        margin-left: -2px;
+        border-top: none !important;
+        border: 2px solid var(--green);
+        width: 100%;
+        font-size: 160%;
     }
 
     a:hover {
@@ -250,25 +275,25 @@
     }
 
     #Email {
-    color: var(--yellow);
-    display: inline;
-    margin: 0% 0%;
-    padding: 0% 0px;
-    line-height: 100%;
-    text-decoration: none;
-    padding-right: 0%;
+        color: var(--yellow);
+        display: inline;
+        margin: 0% 0%;
+        padding: 0% 0px;
+        line-height: 100%;
+        text-decoration: none;
+        padding-right: 0%;
     }
 
     #Email:hover {
-    text-decoration: underline;
-    text-decoration-color: var(--green);
-    background:inherit;
+        text-decoration: underline;
+        text-decoration-color: var(--green);
+        background:inherit;
     }
 
     .Mountain {
-    width: 20%;
-    margin: 15% 40% 5%;
-    opacity: .6;
+        width: 20%;
+        margin: 15% 40% 5%;
+        opacity: .6;
     }
 
 }
