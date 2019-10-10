@@ -193,6 +193,7 @@ iframe {
   height: 125px;
   margin: 0px 33px;
   -webkit-filter: opacity(0);
+  -webkit-transition: all .8s ease-in-out;
   position: absolute;
 }
 
