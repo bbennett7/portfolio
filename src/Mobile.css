@@ -2,23 +2,23 @@
 
 @media only screen and (max-width: 600px) {
     body {
-    --green: rgb(150, 169,160);
-    --lightgreen: rgb(213, 224, 216);
-    --yellow: rgb(222, 153, 0); 
-    --gray: rgb(50, 60, 54);
-    min-height: 100%;
-    min-width: 100%;
-    background: rgb(251, 251, 251);
+        --green: rgb(150, 169,160);
+        --lightgreen: rgb(213, 224, 216);
+        --yellow: rgb(222, 153, 0); 
+        --gray: rgb(50, 60, 54);
+        min-height: 100%;
+        max-width: 100vw;
+        background: rgb(251, 251, 251);
     }
 
 
     #root {
         min-height: 100vh;
         height: 100%;
-        width: 100%;
+        width: 100vw;
         display: grid;
         grid-row-gap: 5px;
-        grid-template: 150px auto 50px / 10px auto 10px;
+        grid-template: 125px auto 50px 100px / 1% 98% 1%;
         font-family: 'Raleway', sans-serif;
     }
 
@@ -29,49 +29,54 @@
     } */
 
     .App {
-        height: 100vh;
-        width: 100%;
+        height: 100%;
+        width: 100vw;
         grid-area: 1 / 1 / 5 / 4;
         display: grid;
-        grid-template: 150px 70px auto 50px  / 1fr 730px 1fr;
+        grid-template: 90px 35px auto 150px  / 1% 98% 1%;
         grid-row-gap: 5px;
     }
 
     .Header {
-        grid-area: 1 / 1 / 1 / 4;
+        grid-area: 1 / 1 / 4 / 2;
         display: grid;
-        margin-top: 2%;
-        grid-template: 100% / 75% 25%;
+        margin-top: 0%;
+        grid-template: 100% / 75vw 25vw;
         grid-gap: 1%;
+        text-align: center;
     }
 
-    /* #Header {
+    #Header {
         color: var(--yellow);
         font-variant: small-caps;
-    } */
+        font-size: 100%;
+        margin-top: 5%;
+
+    }
 
     #Sub-header {
-        margin-top: -2%;
+        margin-top: -4%;
         color: var(--green);
-        font-size: 100%;
+        font-size: 55%;
     }
 
     .Title {
-        font-size: 135%;
+        font-size: 160%;
         grid-area: 1 / 1 / 1 / 3;
-        margin-left: 15px;
+        margin-left: 0px;
         margin-top: 0px;
     }
 
     .Social-icons {
-        grid-area: 1 / 2 / 1 / 3;
-        margin: 7% 10%;
+        grid-area: 4 / 1 / 4 / 3;
+        margin: 7% auto;
+        display: grid;
+        grid-template: 1fr / 50px 50px 50px 50px;
     }
 
     .social-icon {
-    height: 30px !important;
-    float: right;
-    margin-right: 5px;
+        height: 30px !important;
+        margin: 0 10px;
     }
 
     /* .Social-icons a {
@@ -87,8 +92,8 @@
 
     #Mobile-menu {
         display: inline-block;
-        font-size: 200%;
-        margin-top: 1%;
+        font-size: 150%;
+        margin-top: 0%;
         color: var(--yellow);
         text-decoration: underline;
         text-decoration-color: var(--green);
@@ -96,6 +101,7 @@
 
     .Menu {
         grid-area: 2 / 1 / 2 / 4;
+        width: 100vw;
         height: auto;
         margin: 0%;
         padding: 0%;
@@ -113,6 +119,10 @@
         line-height: 100%;
         text-decoration: none;
         color: var(--yellow);
+    }
+
+    .Menu-links h4 {
+        font-size: 80%;
     }
 
     #Display-false {
@@ -147,15 +157,14 @@
 
     .About, .Bucketlist, .Code-Coach, .Contact, .EB-Design, .Home, .Wiki-trash {
         grid-area: 2 / 2 / 2 / 3;
-        min-height: 700px;
+        min-height: 300px;
         background: white;
         margin-top: 15%;
         padding: 4%;
-        min-width: 90%;
         /* border-top: 1px solid var(--yellow); */
         /* border-right: 1px solid var(--yellow); */
         border: 2px solid var(--yellow);
-        box-shadow: 0px 3px 5px var(--lightgreen); 
+        box-shadow: none; 
     }
 
     .Bucketlist h4, .Code-Coach h4, .EB-Design h4, .Wiki-trash h4 {
@@ -163,7 +172,7 @@
         margin-right: 0px;
         margin-bottom: 2%;
         text-align: left;
-        font-size: 135%;
+        font-size: 115%;
     }
 
     .Bucketlist a:hover, .Code-Coach a:hover, .EB-Design a:hover, .Wiki-trash a:hover {
@@ -187,13 +196,16 @@
 
     p {
         color: var(--gray);
-        font-size: 145%;
+        font-size: 115%;
     }
 
     .Home {
+        height: 220px !important;
+        background: rgb(251, 251, 251) !important;
+        border: none !important;
         padding: 1%;
         display: grid;
-        grid-template: auto auto / 1fr 1fr 1fr 1fr;
+        grid-template: 100px 100px / 25% 25% 25% 25%;
         grid-column-gap: 0;
         grid-row-gap: 10px;
     }
@@ -217,56 +229,78 @@
     iframe {
         display: block;
         margin: 0 auto 5%;
+        max-width: 100%;
+        width: 560px;
+        height: 315px;
     }
 
     .Home-icon {
-        margin: 10px 0;
-        width: 100%;
-        height: 260px;
+        width: 75px;
+        height: 75px;
+        margin: 10px auto 0;
     }
 
     .Grey-icon {
-        width: 102.5px;
-        margin: 0px 40px 0px;
-        height: auto;
+        display: block;
+        width: 74px;
+        margin: 0 auto;
+        height: 75px;
         filter: rgb(220, 216, 207);
     }
 
     .Color-icon {
-        width: 102.5px;
-        margin: 0px 40px;
-        height: auto;
+        display: block;
+        width: 75px;
+        margin: 0 auto;
+        height: 75px;
+        -webkit-filter: opacity(0);
     }
 
     .Home-icon:hover .Grey-icon {
-        width: 100px;
+        width: 50px;
         height: auto;
     }
 
-    .Icon-text {
+    #Icon-text {
+        position: fixed;
+        top: 445px;
+        left: 5vw;
         text-align: center;
-        margin-top: 0px;
-        width: auto;
+        height: auto;
+        width: 90vw;
     }
 
     .Home-icon h4 {
-        font-size: 150%;
+        position: relative;
+        top: 50px;
+        font-size: 120%;
+        line-height: 20px;
+        margin-bottom: 5px;
     }
 
     .Home-icon h6 {
-        font-size: 100%;
+        position: relative;
+        top: 50px;
+        font-size: 80%;
+        line-height: 12px;
+        margin-top: 0px;
+        padding: 0 25px;
     }
 
     .Home-icon h4, .Home-icon h6  {
-    display: block;
-    text-align: center;
-    margin: 0px 0px; 
+        display: block;
+        text-align: center;
     }
 
-    .Home-icon:hover h4, .Home-icon:hover h6 {
-    -webkit-filter: opacity(1);
-    -webkit-transform: scale(1.01);
+    .Home-icon h4 {
+        margin-top: -65px;
     }
+
+    .Home-icon:hover h4, .Home-icon:hover h6, .Home-icon:hover .Color-icon {
+        -webkit-filter: opacity(1);
+        -webkit-transform: scale(1);
+    }
+    
 
     #Contact-content {
     width: 95%;

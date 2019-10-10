@@ -184,7 +184,7 @@ iframe {
   z-index: 2;
   filter: rgb(220, 216, 207);
   -webkit-filter: opacity(1);
-  -webkit-transition: all .6s ease-in-out;
+  -webkit-transition: all .8s ease-in-out;
   position: absolute;
 }
 
@@ -192,7 +192,7 @@ iframe {
   width: 125px;
   height: 125px;
   margin: 0px 33px;
-  z-index: 1;
+  -webkit-filter: opacity(0);
   position: absolute;
 }
 
@@ -218,7 +218,7 @@ iframe {
   margin: 0px 0px; 
 }
 
-.Home-icon:hover h4, .Home-icon:hover h6 {
+.Home-icon:hover h4, .Home-icon:hover h6, .Home-icon:hover .Color-icon  {
   -webkit-filter: opacity(1);
   -webkit-transform: scale(1.01);
 }

@@ -14,7 +14,7 @@ export default class CodeCoach extends Component {
 
                 <p>The student automatically has access to any resource that her coach adds, and can track which she has read and which she still needs to read, mark those that are of the highest priority, and view the library sorted by language. She also can rate each resource, and use the "Top Resources" discovery tool, which collects all resources from any student with the highest rating of 10, to find new topics to explore. The majority of CodeCoach is written in Ruby on Rails, but vanilla JavaScript is used for certain functionality such as appending a resource to the recently added resources section as soon as it is added.</p>
 
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/Viuy3M6yqkA" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/Viuy3M6yqkA" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         )
     }
