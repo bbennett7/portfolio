@@ -23,7 +23,7 @@ body {
   display: grid;
   grid-template: 100px auto 300px  / 1.3fr 4fr 1.3fr;
   grid-row-gap: 20px;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Raleway', Candara, sans-serif;
 }
 
 h2 {
