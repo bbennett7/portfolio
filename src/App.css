@@ -172,6 +172,14 @@ iframe {
   height: 315px;
 }
 
+#EB-Design {
+  display: block;
+  margin: 0 auto 5%;
+  border: 1px solid black;
+  height: auto;
+  width: 100%;
+}
+
 .Home-icon {
   margin: 20px auto;
   width: 191px;
