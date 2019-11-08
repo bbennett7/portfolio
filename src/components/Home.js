@@ -2,8 +2,6 @@ import React, { Component } from 'react';
 import HomeIcon from './HomeIcon';
 import IUGrey from '../images/grey/iu-grey.png';
 import IUColor from '../images/color/iu-color.png';
-// import FIGrey from '../images/grey/fi-grey.jpg';
-// import FIColor from '../images/color/fi-color.jpg';
 import VHGrey from '../images/grey/vh-grey.png';
 import VHColor from '../images/color/vh-color.png';
 import MGrey from '../images/grey/m-grey.png';
@@ -25,7 +23,6 @@ export default class Home extends Component {
         return(
             <div className="Home">
                 <HomeIcon greyFile={IUGrey} colorFile={IUColor} title="Indiana University" firstLine="The Kelley School of Business" secondLine="The Jacobs School of Music"/>
-                {/* <HomeIcon greyFile={FIGrey} colorFile={FIColor} title="The Flatiron School" firstLine="Full-stack Software Engineering Course" /> */}
                 <HomeIcon greyFile={SGrey} colorFile={SColor} title="Syntx" firstLine="Full-stack software engineer building Node.js and React.js applications" />
                 <HomeIcon greyFile={VHGrey} colorFile={VHColor} title="Velvet Hammer Music and Management" firstLine="Junior manager for Grammy-award winning artists"/>
                 <HomeIcon greyFile={MGrey} colorFile={MColor} title="Writer" firstLine="Contributor to Medium publications The Startup (500k+ followers), Better Programming (90k+ followers), and JavaScript in Plain English (12.3k+ followers)"/>
