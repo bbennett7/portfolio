@@ -10,7 +10,8 @@ export default class Header extends Component {
             <div className="Header">
                 <div className="Title">
                     <h1 id="Header">Bryn Catherine Bennett</h1>
-                    <h3 id="Sub-header">Full-Stack Software Developer - Problem Solver - Adventurer</h3>
+                    <h3 id="Sub-header">Full-Stack Software Developer | Problem Solver | Adventurer</h3>
+                    <h5 id="Tech-list">JavaScript | React | Express | Node | Next | Ruby On Rails | SQL | HTML | CSS | Sass | AWS | Heroku | PostgreSQL | Redis | Microsoft SQL | Firebase | Auth0</h5>
                 </div>
 
                 <div className="Social-icons">

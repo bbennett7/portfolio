@@ -50,13 +50,13 @@ export default class MenuBar extends Component {
             <div className="Menu">
                 <h4 onClick={this.menuDisplay} id="Mobile-menu">Menu</h4>
                 <div className="Menu-links" id={this.state.mobileDisplay}>
-                    <h4 onClick={this.handleOnClick}> <Link to="/home" className={this.getClass("home")}>Home</Link> </h4>
-                    <h4 onClick={this.handleOnClick}> <Link to="/about" className={this.getClass("about")}>About</Link></h4>
-                    <h4 onClick={this.handleOnClick}> <Link to="/erinboyledesign" className={this.getClass("erinboyledesign")}>Erin Boyle Design</Link> </h4>
-                    <h4 onClick={this.handleOnClick}> <Link to="/wikitrash" className={this.getClass("wikitrash")}>WikiTrash</Link> </h4>
-                    <h4 onClick={this.handleOnClick}> <Link to="/codecoach" className={this.getClass("codecoach")}>CodeCoach</Link> </h4>
-                    <h4 onClick={this.handleOnClick}> <Link to="/bucketlist" className={this.getClass("bucketlist")}>BucketList</Link> </h4>
-                    <h4 onClick={this.handleOnClick}> <Link to="/contact" className={this.getClass("contact")}>Contact</Link> </h4>
+                    <h4 onClick={this.handleOnClick}> <Link to="/home" className={`${this.getClass("home")} menuLink`}>Home</Link> </h4>
+                    <h4 onClick={this.handleOnClick}> <Link to="/about" className={`${this.getClass("about")} menuLink`}>About</Link></h4>
+                    <h4 onClick={this.handleOnClick}> <Link to="/propertii" className={`${this.getClass("propertii")} menuLink`}>Propertii</Link> </h4>
+                    <h4 onClick={this.handleOnClick}> <Link to="/erinboyledesign" className={`${this.getClass("erinboyledesign")} menuLink`}>Erin Boyle Design</Link> </h4>
+                    <h4 onClick={this.handleOnClick}> <Link to="/wikitrash" className={`${this.getClass("wikitrash")} menuLink`}>WikiTrash</Link> </h4>
+                    <h4 onClick={this.handleOnClick}> <Link to="/codecoach" className={`${this.getClass("codecoach")} menuLink`}>CodeCoach</Link> </h4>
+                    <h4 onClick={this.handleOnClick}> <Link to="/contact" className={`${this.getClass("contact")} menuLink`}>Contact</Link> </h4>
                 </div>
              </div>
         )
