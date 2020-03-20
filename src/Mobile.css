@@ -93,7 +93,7 @@
     #Mobile-menu {
         display: inline-block;
         font-size: 150%;
-        margin-top: 0%;
+        margin-top: 20px;
         color: var(--yellow);
         text-decoration: underline;
         text-decoration-color: var(--green);
@@ -107,8 +107,6 @@
         padding: 0%;
         z-index: 1;
         text-align: center;
-        border: 2px solid var(--green);
-        background: var(--lightgreen);
     }
 
     .Menu-links h4, a {
@@ -328,6 +326,11 @@
         width: 20%;
         margin: 15% 40% 5%;
         opacity: .6;
+    }
+
+    #Tech-list {
+        font-size: 10px;
+        padding: 5px;
     }
 
 }

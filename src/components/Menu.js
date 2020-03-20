@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import {ReactComponent as Menu} from '../../src/images/icons8-menu.svg';
 
 
 export default class MenuBar extends Component {
@@ -48,7 +49,7 @@ export default class MenuBar extends Component {
     render() {
         return(
             <div className="Menu">
-                <h4 onClick={this.menuDisplay} id="Mobile-menu">Menu</h4>
+                <Menu id="Mobile-menu" onClick={this.menuDisplay}/>
                 <div className="Menu-links" id={this.state.mobileDisplay}>
                     <h4 onClick={this.handleOnClick}> <Link to="/home" className={`${this.getClass("home")} menuLink`}>Home</Link> </h4>
                     <h4 onClick={this.handleOnClick}> <Link to="/about" className={`${this.getClass("about")} menuLink`}>About</Link></h4>
