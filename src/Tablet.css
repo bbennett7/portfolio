@@ -94,6 +94,8 @@
         color: var(--yellow);
         text-decoration: underline;
         text-decoration-color: var(--green);
+        stroke: var(--yellow);
+        fill: var(--yellow);
     }
 
     .Menu {
@@ -103,8 +105,6 @@
         padding: 0%;
         z-index: 1;
         text-align: center;
-        border: 2px solid var(--green);
-        background: var(--lightgreen);
     }
 
     .Menu-links h4, a {

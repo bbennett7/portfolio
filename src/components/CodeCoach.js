@@ -1,13 +1,17 @@
 import React, { Component } from 'react';
+import {ReactComponent as Github} from '../../src/images/icons8-github.svg';
+import {ReactComponent as Web} from '../../src/images/icons8-website.svg';
 
 export default class CodeCoach extends Component {
     render() {
         return(
             <div className="Code-Coach">
+                <div className="componentHeaderWrapper">
                 <h2 className="Page-header">CodeCoach</h2>
-                <h4><a href="https://code-coach-app.herokuapp.com" className="App-link" target="blank">Visit CodeCoach</a></h4>
-                <h4><a href="https://github.com/bbennett7/codecoach" className="App-link" target="blank">GitHub Repository</a></h4>
-                <p>Ruby on Rails, JavaScript</p>
+                <a href="https://code-coach-app.herokuapp.com" className="App-link" target="blank"><Web className='linkIcon' /></a>
+                <a href="https://github.com/bbennett7/codecoach" className="App-link" target="blank"><Github className='linkIcon' /></a>
+                </div>
+                <p>JavaScript, Ruby on Rails</p>
                 <p>Inspired by the idea that, with a little guidance in traversing the world of open source resources, the opportunity to learn software engineering can be available to students from all over the globe and all walks of life, CodeCoach is a web application that allows students to connect with software engineers for mentorship in this very area.</p>
 
                 <p>When a student signs up, she can view and select an unpaired software engineer to be her coach based on the engineer's experience, programming languages, GitHub, and location. This relationship is made possible through a self-referential join table on the back-end. Once the selection is made, the coach can upload links to open source materials based on a student's interests and experience level, creating a custom curriculum tailored to the student's needs.</p>
