@@ -1,0 +1,33 @@
+@import '../../styles/variables';
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  height: 500px;
+}
+
+.mobileMenu {
+  display: none;
+}
+
+.menuLink {
+  padding: 10px;
+  text-decoration: none;
+  color: $yellow;
+  font-weight: bold;
+}
+
+.menuLink:hover {
+  color: white;
+  text-decoration: underline;
+  text-decoration-color: $yellow;
+  background-color: $green;
+}
+
+.active {
+  color: white;
+  text-decoration: underline;
+  text-decoration-color: $yellow;
+  background-color: $lightGreen;
+}
