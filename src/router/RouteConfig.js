@@ -42,7 +42,7 @@ const routes = [
     exact: true,
     name: 'Contact',
     component: Contact
-  },
+  }
 ];
 
 export default routes;

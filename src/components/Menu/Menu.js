@@ -1,23 +1,23 @@
-import React, { Component } from "react";
-import { Link } from "react-router-dom";
-import styles from "./Menu.module.scss";
-import { ReactComponent as Menu } from "../../assets/icons8-menu.svg";
+import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
+import styles from './Menu.module.scss';
+import { ReactComponent as Menu } from '../../assets/icons8-menu.svg';
 
 export default class MenuBar extends Component {
   state = {
-    path: "",
-    mobileDisplay: "Display-false"
+    path: '',
+    mobileDisplay: 'Display-false'
   };
 
   handleOnClick = event => {
     const path = event.target.innerHTML
       .toLowerCase()
-      .replace(" ", "")
-      .replace(" ", "");
+      .replace(' ', '')
+      .replace(' ', '');
 
     this.setState({
       path,
-      mobileDisplay: "Display-false"
+      mobileDisplay: 'Display-false'
     });
   };
 
@@ -30,12 +30,12 @@ export default class MenuBar extends Component {
 
   menuDisplay = () => {
     console.log(this.state);
-    let status = "";
+    let status = '';
 
-    if (this.state.mobileDisplay === "Display-false") {
-      status = "Display-true";
-    } else if (this.state.mobileDisplay === "Display-true") {
-      status = "Display-false";
+    if (this.state.mobileDisplay === 'Display-false') {
+      status = 'Display-true';
+    } else if (this.state.mobileDisplay === 'Display-true') {
+      status = 'Display-false';
     }
 
     this.setState({
@@ -50,69 +50,49 @@ export default class MenuBar extends Component {
         <Menu className={styles.mobileMenu} onClick={this.menuDisplay} />
         <div className={styles.menuLinks} id={this.state.mobileDisplay}>
           <div onClick={this.handleOnClick}>
-            {" "}
-            <Link
-              to="/home"
-              className={`${this.getClass("home")} ${styles.menuLink}`}
-            >
+            {' '}
+            <Link to="/home" className={`${this.getClass('home')} ${styles.menuLink}`}>
               Home
-            </Link>{" "}
+            </Link>{' '}
           </div>
           <div onClick={this.handleOnClick}>
-            {" "}
-            <Link
-              to="/about"
-              className={`${this.getClass("about")} ${styles.menuLink}`}
-            >
+            {' '}
+            <Link to="/about" className={`${this.getClass('about')} ${styles.menuLink}`}>
               About
             </Link>
           </div>
           <div onClick={this.handleOnClick}>
-            {" "}
-            <Link
-              to="/propertii"
-              className={`${this.getClass("propertii")} ${styles.menuLink}`}
-            >
+            {' '}
+            <Link to="/propertii" className={`${this.getClass('propertii')} ${styles.menuLink}`}>
               Propertii
-            </Link>{" "}
+            </Link>{' '}
           </div>
           <div onClick={this.handleOnClick}>
-            {" "}
+            {' '}
             <Link
               to="/erinboyledesign"
-              className={`${this.getClass("erinboyledesign")} ${
-                styles.menuLink
-              }`}
+              className={`${this.getClass('erinboyledesign')} ${styles.menuLink}`}
             >
               Erin Boyle Design
-            </Link>{" "}
+            </Link>{' '}
           </div>
           <div onClick={this.handleOnClick}>
-            {" "}
-            <Link
-              to="/wikitrash"
-              className={`${this.getClass("wikitrash")} ${styles.menuLink}`}
-            >
+            {' '}
+            <Link to="/wikitrash" className={`${this.getClass('wikitrash')} ${styles.menuLink}`}>
               WikiTrash
-            </Link>{" "}
+            </Link>{' '}
           </div>
           <div onClick={this.handleOnClick}>
-            {" "}
-            <Link
-              to="/codecoach"
-              className={`${this.getClass("codecoach")} ${styles.menuLink}`}
-            >
+            {' '}
+            <Link to="/codecoach" className={`${this.getClass('codecoach')} ${styles.menuLink}`}>
               CodeCoach
-            </Link>{" "}
+            </Link>{' '}
           </div>
           <div onClick={this.handleOnClick}>
-            {" "}
-            <Link
-              to="/contact"
-              className={`${this.getClass("contact")} ${styles.menuLink}`}
-            >
+            {' '}
+            <Link to="/contact" className={`${this.getClass('contact')} ${styles.menuLink}`}>
               Contact
-            </Link>{" "}
+            </Link>{' '}
           </div>
         </div>
       </div>
