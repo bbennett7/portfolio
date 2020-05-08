@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import HeadShot from '../images/WebsiteImg.png';
+import HeadShot from '../../assets/WebsiteImg.png';
 
 export default class About extends Component {
     render() {

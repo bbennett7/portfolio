@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import EBDesignImg from '../images/EB-Design.png';
-import {ReactComponent as Github} from '../../src/images/icons8-github.svg';
-import {ReactComponent as Web} from '../../src/images/icons8-website.svg';
+import EBDesignImg from '../../assets/EB-Design.png';
+import {ReactComponent as Github} from '../../assets/icons8-github.svg';
+import {ReactComponent as Web} from '../../assets/icons8-website.svg';
 
 export default class EBDesign extends Component {
     render() {

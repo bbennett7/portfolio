@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import {ReactComponent as Github} from '../../src/images/icons8-github.svg';
-import {ReactComponent as Web} from '../../src/images/icons8-website.svg';
-import PropertiiHome from '../images/PropertiiHome.png';
-import PropertiiAccount from '../images/PropertiiAccount.png';
-import PropertiiMgmtHome from '../images/PropertiiBuildingMgmtHome.png';
+import {ReactComponent as Github} from '../../assets/icons8-github.svg';
+import {ReactComponent as Web} from '../../assets/icons8-website.svg';
+import PropertiiHome from '../../assets/PropertiiHome.png';
+import PropertiiAccount from '../../assets/PropertiiAccount.png';
+import PropertiiMgmtHome from '../../assets/PropertiiBuildingMgmtHome.png';
 
 export default class Propertii extends Component {
     render() {

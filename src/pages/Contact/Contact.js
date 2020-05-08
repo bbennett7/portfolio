@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Mountain from '../images/Mountain.jpg';
+import Mountain from '../../assets/Mountain.jpg';
 
 
 export default class Contact extends Component {

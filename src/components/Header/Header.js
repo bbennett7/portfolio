@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import Github from '../images/socialicons/github.png';
-import Twitter from '../images/socialicons/twitter.png';
-import Linkedin from '../images/socialicons/linkedin.png';
-import Medium from '../images/socialicons/medium.png';
+import Github from '../../assets/socialicons/github.png';
+import Twitter from '../../assets/socialicons/twitter.png';
+import Linkedin from '../../assets/socialicons/linkedin.png';
+import Medium from '../../assets/socialicons/medium.png';
 
 export default class Header extends Component {
     render() {

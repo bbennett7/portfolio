@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import {ReactComponent as Menu} from '../../src/images/icons8-menu.svg';
+import {ReactComponent as Menu} from '../../assets/icons8-menu.svg';
 
 
 export default class MenuBar extends Component {
