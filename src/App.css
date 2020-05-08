@@ -1,136 +1,29 @@
 
 
-.App {
-  height: 100vh;
-  width: 100vw;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
 
-.Header {
-  display: flex;
-  flex-direction: row;
-  width: 100vw;
-  height: 200px;
-}
 
-#Header {
-  color: var(--yellow);
-  font-variant: small-caps;
-}
-
-#Sub-header {
-  margin-top: -20px;
-  color: var(--green);
-}
-
-.Title {
-  display: flex;
-  flex-direction: column;
-}
-
-.Social-icons {
-  display: flex;
-  flex-direction: row;
-}
-
-.social-icon {
-  height: 27px !important;
-  float: right;
-  margin-right: 15px;
-}
-
-.Social-icons a {
-  padding: 0;
-}
-
-.Social-icons a:hover {
-  text-decoration: none;
-  text-decoration-color: none;
-  background-color: inherit;
-}
-
-#Mobile-menu {
-  display: none;
-}
-
-.Menu {
-  display: flex;
-  flex-direction: column;
-  width: 300px;
-}
-
-.Menu-links h4, a {
-  margin: 0% 0%;
-  /* padding: 2% 10px; */
-  /* line-height: 150%; */
-  text-decoration: none;
-  color: var(--yellow);
-  display: block;
-  /* padding-right: 5%; */
-}
-
-.menuLink:hover {
-  color: white;
-  text-decoration: underline;
-  text-decoration-color: var(--yellow);
-  background-color: var(--green);
-}
-
-.Active {
-  color: white;
-  text-decoration: underline;
-  text-decoration-color: var(--yellow);
-  background-color: var(--lightgreen);
-}
-
-.About {
-  padding: 7%;
-}
-
-.About, .Propertii, .Code-Coach, .Contact, .EB-Design, .Home, .Wiki-trash {
+.Propertii, .Code-Coach, .Contact, .EB-Design, .Wiki-trash {
+  width: 50%;
   display: flex;
   flex-direction: column;
   height: auto;
   background: white;
-  /* border-top: 1px solid var(--yellow); */
-  /* border-right: 1px solid var(--yellow); */
-  border: 2px solid var(--yellow);
-  box-shadow: 0px 3px 5px var(--lightgreen); 
+  border: 2px solid $yellow;
+  box-shadow: 0px 3px 5px $lightGreen; 
 }
 
-.Propertii, .Code-Coach, .Contact, .EB-Design, .Home, .Wiki-trash {
+.Propertii, .Code-Coach, .Contact, .EB-Design, .Wiki-trash {
   padding: 4%;
-}
-
-.Page-header {
-  margin-top: -15px;
-  margin-right: 10px;
 }
 
 p {
   color: var(--gray);
 }
 
-.Home {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  width: 100%;
-  height: auto;
-  flex-wrap: wrap;
-}
 
 h4 {
   margin: 0% 5% 0% 0%;
   display: inline-block;
-}
-
-#Headshot {
-  width: 200px;
-  height: 200px;
-  float: right;
 }
 
 iframe {
@@ -148,66 +41,6 @@ iframe {
   width: 100%;
 }
 
-.Home-icon {
-  display: flex;
-  flex-direction: row;
-  width: 150px;
-  height: 190px;
-  align-content: center;
-}
-
-.Icon {
-  display: flex;
-  flex-direction: row;
-  align-content: space-around;
-}
-
-.Grey-icon {
-  width: 100px;
-  height: 100px;
-  margin: 0px auto;
-  z-index: 2;
-  filter: rgb(220, 216, 207);
-  -webkit-filter: opacity(1);
-  -webkit-transition: all .8s ease-in-out;
-  position: absolute;
-}
-
-.Color-icon {
-  width: 100px;
-  height: 100px;
-  margin: 0px auto;
-  -webkit-filter: opacity(0);
-  -webkit-transition: all .8s ease-in-out;
-  position: absolute;
-}
-
-.Home-icon:hover .Grey-icon {
-  width: 125px;
-  height: 125px;
-  -webkit-filter: opacity(0);
-  -webkit-transform: scale(1.01);
-  position: absolute;
-}
-
-.Icon-text {
-  -webkit-filter: opacity(0);
-  -webkit-transition: all .8s ease-in-out;
-  position: relative;
-  top:125px;
-  text-align: center;
-}
-
-.Home-icon h4, .Home-icon h6  {
-  display: block;
-  text-align: center;
-  margin: 0px 0px; 
-}
-
-.Home-icon:hover h4, .Home-icon:hover h6, .Home-icon:hover .Color-icon  {
-  -webkit-filter: opacity(1);
-  -webkit-transform: scale(1.01);
-}
 
 #Contact-content {
   width: 95%;
@@ -269,9 +102,4 @@ iframe {
   flex-direction: column;
   width: 70px;
   align-items: center;
-}
-#Tech-list{
-  color: var(--yellow);
-  margin-top: -10px;
-  padding-bottom: 20px;
 }
