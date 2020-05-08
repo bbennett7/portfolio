@@ -18,8 +18,13 @@ export default class About extends Component {
           </p>
           <p>
             After leaving to pursue software engineering, she joined the Syntx team as a full-stack
-            engineer, where she currently works building full stack Node.js applications using
-            Express, React, PostgreSQL, Redis, and more.
+            engineer. At Syntx she used Node, React, Express, and PostgreSQL to build applications
+            from the ground up, as well as collaborated with other teams to add new functionality to
+            existing applications.
+          </p>
+          <p>
+            She now works at a stealth startup in the fintech space, and while the nature of her
+            work is at this time secret, it is a very exciting and unique project.
           </p>
           <p>
             In her free time, you can find Bryn outside with her dog, friends, family, or all of the
