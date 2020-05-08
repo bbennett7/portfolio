@@ -27,15 +27,21 @@ body {
   height: 100vh;
   max-width: 100vw;
   font-family: 'Raleway', Candara, sans-serif;
+  margin-bottom: 150px;
 }
 
 div {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap
 }
 
 h2 {
   color: $yellow;
   text-decoration: underline;
   text-decoration-color: $green;
+}
+
+p {
+  color: $gray;
 }

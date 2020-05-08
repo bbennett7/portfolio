@@ -48,7 +48,7 @@ export default class MenuBar extends Component {
     return (
       <div className={styles.container}>
         <Menu className={styles.mobileMenu} onClick={this.menuDisplay} />
-        <div className={styles.menuLinks} id={this.state.mobileDisplay}>
+        <div className={styles.wrapper} id={this.state.mobileDisplay}>
           <div onClick={this.handleOnClick}>
             {' '}
             <Link to="/home" className={`${this.getClass('home')} ${styles.menuLink}`}>

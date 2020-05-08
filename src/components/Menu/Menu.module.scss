@@ -5,6 +5,11 @@
   flex-direction: column;
   width: 200px;
   height: 500px;
+  margin-right: 40px;
+}
+
+.wrapper {
+  flex-direction: column;
 }
 
 .mobileMenu {
@@ -16,6 +21,7 @@
   text-decoration: none;
   color: $yellow;
   font-weight: bold;
+  width: 100%;
 }
 
 .menuLink:hover {
