@@ -1,0 +1,62 @@
+@import '../../styles/variables';
+
+.container {
+  display: flex;
+  flex-direction: row;
+  width: 150px;
+  height: 190px;
+  align-content: center;
+}
+
+.icon {
+  display: flex;
+  flex-direction: row;
+  align-content: space-around;
+}
+
+.container:hover .greyIcon {
+  width: 125px;
+  height: 125px;
+  -webkit-filter: opacity(0);
+  -webkit-transform: scale(1.01);
+  position: absolute;
+}
+
+.colorIcon {
+  width: 125px;
+  height: 125px;
+  margin: 0px 33px;
+  -webkit-filter: opacity(0);
+  -webkit-transition: all .8s ease-in-out;
+  position: absolute;
+}
+
+.greyIcon {
+  width: 125px;
+  height: 125px;
+  margin: 0px 33px;
+  z-index: 2;
+  filter: rgb(220, 216, 207);
+  -webkit-filter: opacity(1);
+  -webkit-transition: all .8s ease-in-out;
+  position: absolute;
+}
+
+.iconText {
+  -webkit-filter: opacity(0);
+  -webkit-transition: all .8s ease-in-out;
+  position: relative;
+  top:125px;
+  text-align: center;
+}
+
+.container h4, .container h6  {
+  display: block;
+  text-align: center;
+  margin: 0px 0px; 
+}
+
+.container:hover h4, .container:hover h6, .container:hover .colorIcon  {
+  -webkit-filter: opacity(1);
+  -webkit-transform: scale(1.01);
+}

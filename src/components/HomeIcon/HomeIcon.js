@@ -1,21 +1,22 @@
 import React, { Component } from 'react';
+import styles from './HomeIcon.module.scss';
 
 export default class HomeIcon extends Component {
   render() {
     return (
-      <div className="Home-icon">
-        <div className="Icon">
-          <img className="Grey-icon" src={this.props.greyFile} height="150" width="150" />
+      <div className={styles.container}>
+        <div className={styles.icon}>
+          <img className={styles.greyIcon} src={this.props.greyFile} height="150" width="150" />
         </div>
-        <div className="Icon">
-          <img className="Color-icon" src={this.props.colorFile} height="150" width="150" />
+        <div className={styles.icon}>
+          <img className={styles.colorIcon} src={this.props.colorFile} height="150" width="150" />
         </div>
-        <div id="Icon-text">
-          <h4 className="Icon-text">{this.props.title}</h4>
-          <h6 className="Icon-text">{this.props.firstLine}</h6>
-          <h6 className="Icon-text">{this.props.secondLine}</h6>
-          <h6 className="Icon-text">{this.props.thirdLine}</h6>
-          <h6 className="Icon-text">{this.props.fourthLine}</h6>
+        <div className={styles.iconText}>
+          <h4 className={styles.iconText}>{this.props.title}</h4>
+          <h6 className={styles.iconText}>{this.props.firstLine}</h6>
+          <h6 className={styles.iconText}>{this.props.secondLine}</h6>
+          <h6 className={styles.iconText}>{this.props.thirdLine}</h6>
+          <h6 className={styles.iconText}>{this.props.fourthLine}</h6>
         </div>
       </div>
     );
