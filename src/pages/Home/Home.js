@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import styles from './Home.module.scss';
 import HomeIcon from '../../components/HomeIcon/HomeIcon';
 import IUGrey from '../../assets/grey/iu-grey.png';
 import IUColor from '../../assets/color/iu-color.png';
@@ -21,7 +22,7 @@ import STColor from '../../assets/color/st-color.png';
 export default class Home extends Component {
   render() {
     return (
-      <div className="Home">
+      <div className={styles.container}>
         <HomeIcon
           greyFile={IUGrey}
           colorFile={IUColor}
