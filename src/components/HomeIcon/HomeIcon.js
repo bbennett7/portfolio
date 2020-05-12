@@ -5,12 +5,19 @@ export default class HomeIcon extends Component {
   render() {
     return (
       <div className={styles.container}>
-        <div className={styles.iconWrapper}>
-          <div className={styles.icon}>
-            <img className={styles.greyIcon} src={this.props.greyFile} height="150" width="150" />
-          </div>
-          <div className={styles.icon}>
-            <img className={styles.colorIcon} src={this.props.colorFile} height="150" width="150" />
+        <div className={styles.wrapper}>
+          <div className={styles.iconWrapper}>
+            <div className={styles.icon}>
+              <img className={styles.greyIcon} src={this.props.greyFile} height="150" width="150" />
+            </div>
+            <div className={styles.icon}>
+              <img
+                className={styles.colorIcon}
+                src={this.props.colorFile}
+                height="150"
+                width="150"
+              />
+            </div>
           </div>
         </div>
         <div className={styles.iconTextWrapper}>
