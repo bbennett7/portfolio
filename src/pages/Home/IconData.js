@@ -4,8 +4,8 @@ import VHGrey from '../../assets/grey/vh-grey.png';
 import VHColor from '../../assets/color/vh-color.png';
 import MGrey from '../../assets/grey/m-grey.png';
 import MColor from '../../assets/color/m-color.png';
-import TPGrey from '../../assets/grey/tp-grey.png';
-import TPColor from '../../assets/color/tp-color.png';
+// import TPGrey from '../../assets/grey/tp-grey.png';
+// import TPColor from '../../assets/color/tp-color.png';
 import ZGrey from '../../assets/grey/z-grey.png';
 import ZColor from '../../assets/color/z-color.png';
 import RGrey from '../../assets/grey/r-grey.png';
@@ -50,12 +50,12 @@ const data = [
     firstLine:
       'Contributor to Medium publications The Startup (600k+ followers), Better Programming (90k+ followers), and JavaScript in Plain English (12.3k+ followers)'
   },
-  {
-    greyFile: TPGrey,
-    colorFile: TPColor,
-    title: 'Tree People',
-    firstLine: 'Volunteer tree planter'
-  },
+  // {
+  //   greyFile: TPGrey,
+  //   colorFile: TPColor,
+  //   title: 'Tree People',
+  //   firstLine: 'Volunteer tree planter'
+  // },
   {
     greyFile: ZGrey,
     colorFile: ZColor,
