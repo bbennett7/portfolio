@@ -8,11 +8,11 @@ export default class Contact extends Component {
       <div className={styles.container}>
         <h2>Contact</h2>
         <h3>
-          If you would like to connect, send Bryn a note at{' '}
+          If you would like to connect, you can reach Bryn at{' '}
           <a href="mailto:bryn.bennett@gmail.com" className={styles.email}>
             bryn.bennett@gmail.com
           </a>
-          . She is especially happy to speak with up and coming developers.
+          . She is happy to speak with up and coming developers.
         </h3>
         <Animation />
         {/* <img className="Mountain" src={Mountain} /> */}
