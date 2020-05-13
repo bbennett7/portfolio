@@ -7,9 +7,14 @@
   justify-content: space-around;
 }
 
-.wrapper, .iconWrapper, .colorIcon, .greyIcon {
+.wrapper, .iconWrapper {
   width: 100px;
   height: 100px;
+}
+
+.colorIcon, .greyIcon {
+  width: 97px;
+  height: 97px;
 }
 
 .iconWrapper {
