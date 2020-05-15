@@ -11,9 +11,8 @@ export default class Header extends Component {
       <div className={styles.container}>
         <div className={styles.wrapper}>
           <div className={styles.header}>Bryn Catherine Bennett</div>
-          <div className={styles.subHeader}>
-            Full-Stack Software Developer | Problem Solver | Adventurer
-          </div>
+          <hr className={styles.ruler} />
+          <div className={styles.subHeader}>Full-Stack Software Engineer</div>
           <div className={styles.techList}>
             JavaScript | React | Express | Node | Ruby On Rails | SQL | HTML | CSS | Sass | AWS |
             Heroku | PostgreSQL | Redis | APIs | Firebase
