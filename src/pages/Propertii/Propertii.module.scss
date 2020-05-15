@@ -1,0 +1,69 @@
+@import '../../styles/variables';
+
+.container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  background: white;
+  box-shadow: 0px 3px 5px $lightGreen; 
+  padding: 7%;
+  align-items: flex-start;
+  margin-bottom: 200px;
+}
+
+.imageWrapper {
+  margin: 2% 0;
+  border: 1px solid black;
+}
+
+.componentHeaderWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.icon:hover {
+  stroke: $yellow;
+  fill: $yellow;
+}
+
+.icon a:hover {
+  background-color: rgb(251, 251, 251);
+}
+
+.componentHeaderWrapper a {
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  width: 70px;
+  align-items: center;
+}
+
+.image {
+  display: block;
+  max-width: 100%;
+}
+
+.header {
+  margin: 0px;
+}
+
+.iconWrapper {
+  flex-direction: column;
+  height: 60px;
+  align-items: center;
+}
+
+.icon {
+  height: 40px;
+}
+
+.tech {
+  font-weight: 700;
+  font-size: 16px;
+  font-style: oblique;
+  margin-top: 0px;
+  color: $iconGrey;
+}
