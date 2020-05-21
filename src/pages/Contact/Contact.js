@@ -15,7 +15,6 @@ export default class Contact extends Component {
           . She is happy to speak with up and coming developers.
         </h3>
         <Animation />
-        {/* <img className="Mountain" src={Mountain} /> */}
       </div>
     );
   }
