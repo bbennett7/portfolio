@@ -1,0 +1,21 @@
+@import '../../styles/variables';
+
+.container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  background: white;
+  box-shadow: 0px 3px 5px $lightGreen; 
+  padding: 7%;
+  align-items: flex-start;
+  margin-bottom: 200px;
+}
+
+.tech {
+  font-weight: 700;
+  font-size: 16px;
+  font-style: oblique;
+  margin-top: 0px;
+  color: $iconGrey;
+}

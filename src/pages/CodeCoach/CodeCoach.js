@@ -1,31 +1,20 @@
 import React, { Component } from 'react';
+import PageHeader from '../../components/PageHeader/PageHeader';
+import styles from './CodeCoach.module.scss';
 import { ReactComponent as Github } from '../../assets/icons8-github.svg';
 import { ReactComponent as Web } from '../../assets/icons8-website.svg';
 
 export default class CodeCoach extends Component {
   render() {
     return (
-      <div className="Code-Coach">
-        <div className="componentHeaderWrapper">
-          <h2 className="Page-header">CodeCoach</h2>
-          <a
-            href="https://code-coach-app.herokuapp.com"
-            className="App-link"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Web className="linkIcon" />
-          </a>
-          <a
-            href="https://github.com/bbennett7/codecoach"
-            className="App-link"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Github className="linkIcon" />
-          </a>
-        </div>
-        <p>JavaScript, Ruby on Rails</p>
+      <div className={styles.container}>
+        <PageHeader
+          pageName={'CodeCoach'}
+          liveLink={'https://code-coach-app.herokuapp.com'}
+          feLink={'https://github.com/bbennett7/codecoach'}
+        />
+
+        <p className={styles.tech}>JavaScript, Ruby on Rails</p>
         <p>
           Inspired by the idea that, with a little guidance in traversing the world of open source
           resources, the opportunity to learn software engineering can be available to students from
