@@ -1,32 +1,18 @@
 import React, { Component } from 'react';
 import styles from './EBDesign.module.scss';
 import EBDesignImg from '../../assets/EB-Design.png';
-import { ReactComponent as Github } from '../../assets/icons8-github.svg';
-import { ReactComponent as Web } from '../../assets/icons8-website.svg';
+import PageHeader from '../../components/PageHeader/PageHeader';
 
 export default class EBDesign extends Component {
   render() {
     return (
       <div className={styles.container}>
-        <div className={styles.headerWrapper}>
-          <h2 className="Page-header">Erin Boyle Design</h2>
-          <div>
-            <div className={styles.iconWrapper}>
-              <a href="https://www.erinboyledesign.com/" target="_blank" rel="noopener noreferrer">
-                <Web className={styles.icon} />
-              </a>
-            </div>
-            <div className={styles.iconWrapper}>
-              <a
-                href="https://github.com/bbennett7/ebdesign"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Github className={styles.icon} />
-              </a>
-            </div>
-          </div>
-        </div>
+        <PageHeader
+          pageName={'Erin Boyle Design'}
+          liveLink={'https://www.erinboyledesign.com/'}
+          feLink={'https://github.com/bbennett7/ebdesignproperti-web-app'}
+        />
+
         <p className={styles.tech}>React</p>
         <p>
           Built using the JavaScript React library and Bootstrap, this web application showcases the

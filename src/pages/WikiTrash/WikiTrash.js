@@ -1,32 +1,19 @@
 import React, { Component } from 'react';
-import { ReactComponent as Github } from '../../assets/icons8-github.svg';
-import { ReactComponent as Web } from '../../assets/icons8-website.svg';
+import PageHeader from '../../components/PageHeader/PageHeader';
+import styles from './WikiTrash.module.scss';
 
 export default class WikiTrash extends Component {
   render() {
     return (
-      <div className="Wiki-trash">
-        <div className="componentHeaderWrapper">
-          <h2 className="Page-header">Wikitrash</h2>
-          <a href="https://wikitrash.herokuapp.com" target="_blank" rel="noopener noreferrer">
-            <Web className="linkIcon" />
-          </a>
-          <a
-            href="https://github.com/bbennett7/wikitrash"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Github className="linkIcon" /> (Frontend)
-          </a>
-          <a
-            href="https://github.com/bbennett7/developer-wikitrash"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Github className="linkIcon" /> (Backend)
-          </a>
-        </div>
-        <p>React, Redux, Ruby on Rails, PostgreSQL</p>
+      <div className={styles.container}>
+        <PageHeader
+          pageName={'Wikitrash'}
+          liveLink={'https://wikitrash.herokuapp.com'}
+          feLink={'https://github.com/bbennett7/wikitrash'}
+          beLink={'https://github.com/bbennett7/developer-wikitrash"'}
+        />
+
+        <p className={styles.tech}>React, Redux, Ruby on Rails, PostgreSQL</p>
         <p>
           WikiTrash is a resource that gathers and provides information on the responsible disposal
           of different materials. Users can contribute information on these responsible disposal

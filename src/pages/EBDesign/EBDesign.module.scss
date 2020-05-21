@@ -12,30 +12,6 @@
   margin-bottom: 200px;
 }
 
-.headerWrapper {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 100%;
-}
-
-.headerWrapper a {
-  width: auto;
-  display: flex;
-  flex-direction: column;
-  width: 70px;
-  align-items: center;
-}
-
-.icon:hover {
-  stroke: $yellow;
-  fill: $yellow;
-}
-
-.icon a:hover {
-  background-color: rgb(251, 251, 251);
-}
-
 .tech {
   font-weight: 700;
   font-size: 16px;
