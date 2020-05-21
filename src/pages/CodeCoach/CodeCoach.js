@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import PageHeader from '../../components/PageHeader/PageHeader';
 import styles from './CodeCoach.module.scss';
-import { ReactComponent as Github } from '../../assets/icons8-github.svg';
-import { ReactComponent as Web } from '../../assets/icons8-website.svg';
 
 export default class CodeCoach extends Component {
   render() {
