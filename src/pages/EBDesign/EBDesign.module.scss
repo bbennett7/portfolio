@@ -1,0 +1,52 @@
+@import '../../styles/variables';
+
+.container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  background: white;
+  box-shadow: 0px 3px 5px $lightGreen; 
+  padding: 7%;
+  align-items: flex-start;
+  margin-bottom: 200px;
+}
+
+.headerWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.headerWrapper a {
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  width: 70px;
+  align-items: center;
+}
+
+.icon:hover {
+  stroke: $yellow;
+  fill: $yellow;
+}
+
+.icon a:hover {
+  background-color: rgb(251, 251, 251);
+}
+
+.tech {
+  font-weight: 700;
+  font-size: 16px;
+  font-style: oblique;
+  margin-top: 0px;
+  color: $iconGrey;
+}
+
+.image {
+  display: block;
+  max-width: 100%;
+  border: 1px solid black;
+}
+
