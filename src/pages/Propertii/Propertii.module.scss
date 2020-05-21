@@ -24,6 +24,14 @@
   width: 100%;
 }
 
+.componentHeaderWrapper a {
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  width: 70px;
+  align-items: center;
+}
+
 .icon:hover {
   stroke: $yellow;
   fill: $yellow;
@@ -33,13 +41,6 @@
   background-color: rgb(251, 251, 251);
 }
 
-.componentHeaderWrapper a {
-  width: auto;
-  display: flex;
-  flex-direction: column;
-  width: 70px;
-  align-items: center;
-}
 
 .image {
   display: block;
