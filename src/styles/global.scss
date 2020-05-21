@@ -1,0 +1,61 @@
+@import './variables';
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:200,300&display=swap');
+
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+@-ms-viewport {
+  width: device-width;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-family: null;
+  background-color: $lightGrey;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  height: 100vh;
+  width: 100vw;
+  max-width: auto;
+  font-family: 'Raleway', Candara, sans-serif;
+  margin-bottom: 200px;
+  flex-wrap: nowrap;
+}
+
+div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap
+}
+
+h2 {
+  color: $yellow;
+  text-decoration: underline;
+  text-decoration-color: $green;
+}
+
+h4 {
+  margin: 0% 5% 0% 0%;
+  display: inline-block;
+}
+
+p {
+  color: $gray;
+}
+
+iframe {
+  display: block;
+  margin: 0 auto 5%;
+  width: 560px;
+  height: 315px;
+}

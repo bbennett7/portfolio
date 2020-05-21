@@ -1,0 +1,45 @@
+@import '../../styles/variables';
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  height: 350px;
+  margin-right: 40px;
+  background: white;
+  box-shadow: 0px 3px 5px $lightGreen;
+}
+
+.wrapper {
+  flex-direction: column;
+}
+
+.mobileMenu {
+  display: none;
+}
+
+.menuLink {
+  text-decoration: none;
+  color: $yellow;
+  font-weight: bold;
+  width: 98%;
+  height: 40px;
+  padding-left: 2%;
+  padding-top: 9px;
+  border-bottom: 1px solid $lightGreen;
+}
+
+.menuLink:hover {
+  font-weight: 900;
+  color: white;
+  text-decoration: underline;
+  text-decoration-color: $yellow;
+  background-color: $lightGreen;
+}
+
+.active {
+  color: white;
+  text-decoration: underline;
+  text-decoration-color: $yellow;
+  background-color: $green;
+}

@@ -1,0 +1,40 @@
+@import '../../styles/variables';
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.wrapper a {
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  width: 70px;
+  align-items: center;
+}
+
+.header {
+  margin: 0px;
+}
+
+.iconWrapper {
+  flex-direction: column;
+  height: 60px;
+  align-items: center;
+}
+
+.icon {
+  height: 40px;
+}
+
+.icon:hover {
+  stroke: $yellow;
+  fill: $yellow;
+  cursor: pointer;
+}
+
+.icon a:hover {
+  background-color: rgb(251, 251, 251);
+}

@@ -1,0 +1,77 @@
+@import '../../styles/variables';
+
+.container {
+  display: flex;
+  width: 200px;
+  height: 200px;
+  justify-content: space-around;
+}
+
+.wrapper, .iconWrapper {
+  width: 100px;
+  height: 100px;
+}
+
+.colorIcon, .greyIcon {
+  width: 97px;
+  height: 97px;
+}
+
+.iconWrapper {
+  position: relative;
+}
+
+.icon {
+  display: flex;
+  flex-direction: row;
+  align-content: space-around;
+}
+
+.container:hover .greyIcon {
+  -webkit-filter: opacity(0);
+  -webkit-transform: scale(1.01);
+}
+
+.colorIcon {
+  -webkit-filter: opacity(0);
+  -webkit-transition: all .8s ease-in-out;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.greyIcon {
+  z-index: 2;
+  filter: rgb(220, 216, 207);
+  -webkit-filter: opacity(1);
+  -webkit-transition: all .8s ease-in-out;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.iconTextWrapper {
+  margin-top: 15px;
+  width: 100%;
+  height: 100px;
+  flex-direction: column;
+}
+
+.iconText {
+  width: 100%;
+  -webkit-filter: opacity(0);
+  -webkit-transition: all .8s ease-in-out;
+  text-align: center;
+  flex-wrap: wrap;
+  text-align: center;
+  margin: 0px;
+}
+
+.container:hover * {
+  -webkit-filter: opacity(1);
+  -webkit-transform: scale(1.01);
+}
+
+.iconTextWrapper h6 {
+  font-size: 10px;
+}

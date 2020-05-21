@@ -1,0 +1,45 @@
+@import '../../styles/variables';
+
+.container {
+  width: 55%;
+  min-width: 700px;
+  height: auto;
+  background: white;
+  box-shadow: 0px 3px 5px $lightGreen;
+  padding: 5% 4% 1% 4%;
+  justify-content: space-around;
+  align-items: space-around;
+  height: auto;
+  flex-wrap: wrap;
+  margin-bottom: 100px;
+}
+
+.wrapper {
+  width: 25%;
+  max-width: 200px;
+  height: 200px;
+  justify-content: center;
+}
+
+.container:hover .greyIcon {
+  -webkit-filter: opacity(0);
+  -webkit-transform: scale(1.01);
+}
+
+.colorIcon {
+  -webkit-filter: opacity(0);
+  -webkit-transition: all .8s ease-in-out;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.greyIcon {
+  z-index: 2;
+  filter: rgb(220, 216, 207);
+  -webkit-filter: opacity(1);
+  -webkit-transition: all .8s ease-in-out;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
